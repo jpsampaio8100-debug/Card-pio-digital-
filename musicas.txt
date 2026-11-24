@@ -4,7 +4,6 @@
 # Linhas que começam com # são ignoradas. Para apagar uma música, apague a linha.
 
 20 e Poucos Anos | Fábio Jr. | Pop Rock
-A Volta da Asa Branca | Luiz Gonzaga | Forró
 Açaí | Djavan | MPB
 Agora Só Falta Você | Rita Lee | Pop Rock
 Águas de Março | Tom Jobim | Bossa Nova
