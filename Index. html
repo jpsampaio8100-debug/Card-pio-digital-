@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Cardápio Musical — Peça Sua Música</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+<style id="own">
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;background:#FAF7F2;color:#1C1917}
+.serif{font-family:'Playfair Display',Georgia,serif}
+.cifra{font-family:'Courier New',monospace;white-space:pre-wrap;line-height:1.55}
+@media print{body *{visibility:hidden}#poster-print-area,#poster-print-area *{visibility:visible}#poster-print-area{position:fixed;left:0;top:0;width:100%}}
+</style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+<header class="sticky top-0 z-30 bg-[#1C1917] text-white shadow-md">
+  <div class="max-w-4xl mx-auto px-4 py-3 flex items-center justify-between gap-2">
+    <div class="flex items-center gap-2 min-w-0"><span class="text-amber-400 text-xl">♪</span><span id="header-name" class="font-semibold truncate text-sm">João Paulo</span></div>
+    <div id="tabs" class="flex bg-stone-800 p-1 rounded-xl shrink-0 hidden">
+      <button id="t-pub" onclick="switchMode('public')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-stone-300">Público</button>
+      <button id="t-adm" onclick="switchMode('admin')" class="px-3 py-1.5 rounded-lg text-xs font-medium bg-amber-500 text-stone-950">Painel Músico</button>
+    </div>
+  </div>
+</header>
+
+<!-- PÚBLICO -->
+<main id="view-public" class="flex-1 max-w-4xl w-full mx-auto px-4 pb-16">
+  <section class="relative mt-4 rounded-3xl overflow-hidden bg-white shadow-sm border border-stone-200">
+    <div class="h-36 sm:h-48 w-full bg-gradient-to-r from-stone-800 via-amber-900 to-stone-900 overflow-hidden">
+      <img id="pub-cover" alt="" class="hidden w-full h-full object-cover opacity-80">
+    </div>
+    <div class="px-5 pb-6 flex flex-col items-center gap-3 -mt-14 relative z-10 text-center">
+      <div class="w-28 h-28 rounded-t-full rounded-b-2xl border-4 border-white shadow-lg overflow-hidden bg-white shrink-0 flex items-center justify-center">
+        <img id="pub-avatar" alt="" class="w-full h-full object-cover object-top" src="">
+        <span id="pub-avatar-ph" class="text-4xl hidden">🎸</span>
+      </div>
+      <div class="w-full min-w-0 flex flex-col items-center">
+        <img id="pub-logo" alt="João Paulo — Voz e violão e sanfona" class="w-full max-w-[320px] h-auto mb-1" src="">
+        <h1 id="pub-title" class="serif text-2xl font-bold leading-tight">João Paulo</h1>
+        <p id="pub-subtitle" class="text-sm text-stone-500 mt-1">Voz e violão e sanfona</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-6">
+    <h2 class="serif text-xl font-bold text-center mb-3">🎵 Peça sua música</h2>
+    <div class="bg-white rounded-2xl shadow-sm border border-stone-200 p-4">
+      <div id="qrcode" class="flex justify-center mb-3"></div>
+      <p class="text-center text-sm text-stone-600 mb-3">Escaneie o QR Code ou clique no botão para pedir sua música.</p>
+      <a id="pedir-btn" href="#" target="_blank" class="block w-full text-center bg-amber-500 hover:bg-amber-600 text-stone-950 font-semibold py-3 rounded-xl transition">Pedir música</a>
+    </div>
+  </section>
+
+  <section class="mt-6">
+    <h2 class="serif text-xl font-bold text-center mb-3">Repertório</h2>
+    <div id="lista-musicas" class="grid gap-3 sm:grid-cols-2"></div>
+  </section>
+</main>
+
+<!-- ADMIN -->
+<main id="view-admin" class="flex-1 max-w-4xl w-full mx-auto px-4 pb-16 hidden">
+  <section class="mt-4 bg-white rounded-2xl shadow-sm border border-stone-200 p-5">
+    <h2 class="serif text-xl font-bold mb-4">Painel do Músico</h2>
+    <div class="grid gap-3">
+      <label class="block">
+        <span class="text-sm font-medium">Nome</span>
+        <input id="inp-name" type="text" class="mt-1 w-full border border-stone-300 rounded-lg px-3 py-2" placeholder="Seu nome">
+      </label>
+      <label class="block">
+        <span class="text-sm font-medium">Subtítulo</span>
+        <input id="inp-subtitle" type="text" class="mt-1 w-full border border-stone-300 rounded-lg px-3 py-2" placeholder="Voz e violão">
+      </label>
+      <label class="block">
+        <span class="text-sm font-medium">Link para pedir música (WhatsApp, formulário, etc.)</span>
+        <input id="inp-link" type="url" class="mt-1 w-full border border-stone-300 rounded-lg px-3 py-2" placeholder="https://...">
+      </label>
+      <label class="block">
+        <span class="text-sm font-medium">URL da foto de perfil</span>
+        <input id="inp-avatar" type="url" class="mt-1 w-full border border-stone-300 rounded-lg px-3 py-2" placeholder="https://...">
+      </label>
+      <label class="block">
+        <span class="text-sm font-medium">URL da capa</span>
+        <input id="inp-cover" type="url" class="mt-1 w-full border border-stone-300 rounded-lg px-3 py-2" placeholder="https://...">
+      </label>
+      <div>
+        <span class="text-sm font-medium">Repertório (uma música por linha)</span>
+        <textarea id="inp-songs" rows="6" class="mt-1 w-full border border-stone-300 rounded-lg px-3 py-2" placeholder="Nome da música - Artista"></textarea>
+      </div>
+      <button onclick="salvar()" class="bg-amber-500 hover:bg-amber-600 text-stone-950 font-semibold py-3 rounded-xl transition">Salvar</button>
+      <button onclick="exportar()" class="bg-stone-800 hover:bg-stone-900 text-white font-semibold py-3 rounded-xl transition">Exportar HTML</button>
+    </div>
+  </section>
+</main>
+
+<script>
+const DEFAULTS = {
+  name: 'João Paulo',
+  subtitle: 'Voz e violão e sanfona',
+  link: 'https://wa.me/5500000000000',
+  avatar: '',
+  cover: '',
+  songs: [
+    'Garota de Ipanema - Tom Jobim',
+    'Wave - Tom Jobim',
+    'Aquarela - Toquinho',
+    'Trem Bala - Ana Vilela',
+    'Asa Branca - Luiz Gonzaga',
+    'Anunciação - Alceu Valença'
+  ]
+};
+
+function carregar() {
+  const salvo = localStorage.getItem('cardapio-musical');
+  return salvo ? JSON.parse(salvo) : { ...DEFAULTS };
+}
+
+function salvar() {
+  const data = {
+    name: document.getElementById('inp-name').value.trim() || DEFAULTS.name,
+    subtitle: document.getElementById('inp-subtitle').value.trim(),
+    link: document.getElementById('inp-link').value.trim(),
+    avatar: document.getElementById('inp-avatar').value.trim(),
+    cover: document.getElementById('inp-cover').value.trim(),
+    songs: document.getElementById('inp-songs').value.split('\n').map(s => s.trim()).filter(Boolean)
+  };
+  localStorage.setItem('cardapio-musical', JSON.stringify(data));
+  render(data);
+  alert('Salvo com sucesso!');
+}
+
+function exportar() {
+  const data = carregar();
+  const blob = new Blob([document.documentElement.outerHTML], { type: 'text/html' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'cardapio-musical.html';
+  a.click();
+}
+
+function render(data) {
+  document.getElementById('header-name').textContent = data.name;
+  document.getElementById('pub-title').textContent = data.name;
+  document.getElementById('pub-subtitle').textContent = data.subtitle;
+
+  const avatar = document.getElementById('pub-avatar');
+  const ph = document.getElementById('pub-avatar-ph');
+  if (data.avatar) {
+    avatar.src = data.avatar;
+    avatar.classList.remove('hidden');
+    ph.classList.add('hidden');
+  } else {
+    avatar.classList.add('hidden');
+    ph.classList.remove('hidden');
+  }
+
+  const cover = document.getElementById('pub-cover');
+  if (data.cover) {
+    cover.src = data.cover;
+    cover.classList.remove('hidden');
+  }
+
+  document.getElementById('pedir-btn').href = data.link || '#';
+
+  const qrDiv = document.getElementById('qrcode');
+  qrDiv.innerHTML = '';
+  if (data.link) {
+    new QRCode(qrDiv, { text: data.link, width: 180, height: 180 });
+  }
+
+  const lista = document.getElementById('lista-musicas');
+  lista.innerHTML = '';
+  if (data.songs.length === 0) {
+    lista.innerHTML = '<p class="text-center text-stone-500 col-span-2">Nenhuma música cadastrada.</p>';
+  } else {
+    data.songs.forEach(song => {
+      const el = document.createElement('div');
+      el.className = 'bg-white rounded-xl border border-stone-200 px-4 py-3 text-sm flex items-center gap-2';
+      el.innerHTML = `<span class="text-amber-500">♪</span><span>${song}</span>`;
+      lista.appendChild(el);
+    });
+  }
+
+  // Preencher admin
+  document.getElementById('inp-name').value = data.name;
+  document.getElementById('inp-subtitle').value = data.subtitle;
+  document.getElementById('inp-link').value = data.link;
+  document.getElementById('inp-avatar').value = data.avatar;
+  document.getElementById('inp-cover').value = data.cover;
+  document.getElementById('inp-songs').value = data.songs.join('\n');
+}
+
+function switchMode(mode) {
+  const pub = document.getElementById('view-public');
+  const adm = document.getElementById('view-admin');
+  const tPub = document.getElementById('t-pub');
+  const tAdm = document.getElementById('t-adm');
+
+  if (mode === 'admin') {
+    pub.classList.add('hidden');
+    adm.classList.remove('hidden');
+    tAdm.className = 'px-3 py-1.5 rounded-lg text-xs font-medium bg-amber-500 text-stone-950';
+    tPub.className = 'px-3 py-1.5 rounded-lg text-xs font-medium text-stone-300';
+  } else {
+    adm.classList.add('hidden');
+    pub.classList.remove('hidden');
+    tPub.className = 'px-3 py-1.5 rounded-lg text-xs font-medium bg-amber-500 text-stone-950';
+    tAdm.className = 'px-3 py-1.5 rounded-lg text-xs font-medium text-stone-300';
+  }
+}
+
+// Mostrar abas ao segurar o título (acesso admin)
+let pressTimer;
+const headerName = document.getElementById('header-name');
+headerName.addEventListener('mousedown', () => {
+  pressTimer = setTimeout(() => {
+    document.getElementById('tabs').classList.remove('hidden');
+  }, 800);
+});
+headerName.addEventListener('mouseup', () => clearTimeout(pressTimer));
+headerName.addEventListener('mouseleave', () => clearTimeout(pressTimer));
+headerName.addEventListener('touchstart', () => {
+  pressTimer = setTimeout(() => {
+    document.getElementById('tabs').classList.remove('hidden');
+  }, 800);
+});
+headerName.addEventListener('touchend', () => clearTimeout(pressTimer));
+
+// Inicializar
+const dados = carregar();
+render(dados);
+</script>
+
+</body>
+</html>
