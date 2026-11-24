@@ -3,11 +3,13 @@
 # (opcional: um quarto campo com o tom, ex.: Título | Artista | Gênero | G)
 # Linhas que começam com # são ignoradas. Para apagar uma música, apague a linha.
 
+20 e Poucos Anos | Fábio Jr. | Pop Rock
+A Volta da Asa Branca | Luiz Gonzaga | Forró
 Açaí | Djavan | MPB
+Agora Só Falta Você | Rita Lee | Pop Rock
 Águas de Março | Tom Jobim | Bossa Nova
 Ainda Lembro | Marisa Monte | MPB
 All Star | Nando Reis | Pop Rock
-Amor pra Recomeçar | Frejat | Pop Rock
 Andança | Beth Carvalho | Samba
 Andar com Fé | Gilberto Gil | Reggae
 Anunciação | Alceu Valença | MPB
@@ -17,116 +19,314 @@ Aquele Abraço | Gilberto Gil | Reggae
 As Rosas Não Falam | Cartola | Samba
 Azul da Cor do Mar | Tim Maia | MPB
 Baby | Gal Costa | MPB
+Baião | Luiz Gonzaga | Forró
+Banho de Cheiro | Elba Ramalho | Forró
+Banho de Espuma | Rita Lee | Pop Rock
+Bate Coração | Elba Ramalho | Forró
+Beija Eu | Marisa Monte | MPB
+Beleza Rara | Banda Eva | Pop Rock
 Besta É Tu | Novos Baianos | MPB
 Bete Balanço | Barão Vermelho | Rock Nacional
+Bim Bom | João Gilberto | Bossa Nova
 Boa Sorte | Vanessa da Mata | MPB
 Borbulhas de Amor | Fagner | MPB
+Brasil | Cazuza | Rock Nacional
+Buffalo Soldier | Bob Marley | Reggae
+Burguesinha | Seu Jorge | MPB
+Cálice | Chico Buarque | MPB
+Camila, Camila | Nenhum de Nós | Pop Rock
+Canção do Sal | Milton Nascimento | MPB
+Canto de Ossanha | Vinícius de Moraes | Bossa Nova
+Caravana | Geraldo Azevedo | MPB
+Carcará | Maria Bethânia | MPB
+Carolina | Seu Jorge | MPB
+Casa | Lulu Santos | Pop Rock
+Casa de Bamba | Martinho da Vila | Samba
+Casa no Campo | Elis Regina | MPB
+Catedral | Zélia Duncan | Pop Rock
+Cavalgada | Roberto Carlos | MPB
 Certas Coisas | Lulu Santos | Pop Rock
+Chalana | Almir Sater | Sertanejo
+Chão da Praça | Moraes Moreira | MPB
 Chão de Giz | Zé Ramalho | MPB
 Chega de Saudade | Tom Jobim | Bossa Nova
 Cheia de Charme | Guilherme Arantes | Pop Rock
 Chiclete com Banana | Jackson do Pandeiro | Forró
+Chove Chuva | Jorge Ben Jor | MPB
+Ciúme | Ultraje a Rigor | Rock Nacional
 Clube da Esquina | Milton Nascimento | MPB
 Codinome Beija-Flor | Cazuza | Rock Nacional
+Com que Roupa? | Noel Rosa | Samba
+Começar de Novo | Ivan Lins | MPB
+Comida | Titãs | Rock Nacional
 Como É Grande o Meu Amor por Você | Roberto Carlos | MPB
 Como Eu Quero | Kid Abelha | Pop Rock
 Como Nossos Pais | Elis Regina | MPB
 Como uma Onda | Lulu Santos | Pop Rock
+Construção | Chico Buarque | MPB
+Conto de Areia | Clara Nunes | Samba
+Cor de Rosa Choque | Rita Lee | Pop Rock
 Coração Bobo | Alceu Valença | MPB
+Corcovado | Tom Jobim | Bossa Nova
 Corsário | João Bosco | MPB
+Cotidiano | Chico Buarque | MPB
+Could You Be Loved | Bob Marley | Reggae
+Da Lama ao Caos | Nação Zumbi | Rock Nacional
+Dança da Solidão | Paulinho da Viola | Samba
 De Volta pro Aconchego | Dominguinhos | Forró
 Deixa a Vida Me Levar | Zeca Pagodinho | Samba
 Desafinado | Tom Jobim | Bossa Nova
+Descobridor dos Sete Mares | Tim Maia | MPB
 Deslizes | Fagner | MPB
 Detalhes | Roberto Carlos | MPB
 Dia Branco | Geraldo Azevedo | MPB
+Dias Melhores | Jota Quest | Pop Rock
+Dinorah, Dinorah | Ivan Lins | MPB
+Divino Maravilhoso | Gal Costa | MPB
+Diz Que Fui por Aí | Nara Leão | Bossa Nova
+Do Leme ao Pontal | Tim Maia | MPB
+Do Seu Lado | Jota Quest | Pop Rock
+Doce Vampiro | Rita Lee | Pop Rock
+Dois pra Lá, Dois pra Cá | João Bosco | MPB
+Domingo no Parque | Gilberto Gil | Reggae
 Dona | Roupa Nova | Pop Rock
 É o Amor | Zezé Di Camargo & Luciano | Sertanejo
+É Uma Partida de Futebol | Skank | Pop Rock
+Eduardo e Mônica | Legião Urbana | Rock Nacional
+Emoções | Roberto Carlos | MPB
+Encostar na Tua | Ana Carolina | MPB
 Entre a Serpente e a Estrela | Zé Ramalho | MPB
+Entre Tapas e Beijos | Leandro & Leonardo | Sertanejo
+Envelheço na Cidade | Ira! | Rock Nacional
 Epitáfio | Titãs | Rock Nacional
+Equalize | Pitty | Rock Nacional
+Esmola | Skank | Pop Rock
 Esperando na Janela | Gilberto Gil | Reggae
 Esquadros | Adriana Calcanhotto | MPB
+Esquina | Djavan | MPB
+Esse Cara | Vander Lee | Pop Rock
 Eu Só Quero um Xodó | Dominguinhos | Forró
 Eu Te Amo, Te Amo, Te Amo | Roberto Carlos | MPB
 Evidências | Chitãozinho & Xororó | Sertanejo | G
 Exagerado | Cazuza | Rock Nacional
+Explode Coração | Gonzaguinha | MPB
+Fácil | Jota Quest | Pop Rock
 Faltando um Pedaço | Djavan | MPB
+Faroeste Caboclo | Legião Urbana | Rock Nacional
+Fátima | Capital Inicial | Rock Nacional
 Faz Parte do Meu Show | Cazuza | Rock Nacional
+Fé Cega, Faca Amolada | Milton Nascimento | MPB
+Feira de Mangaio | Sivuca | Forró
 Final Feliz | Jorge Vercilo | Pop Rock
 Fio de Cabelo | Chitãozinho & Xororó | Sertanejo
+Fixação | Kid Abelha | Pop Rock
+Flagra | Rita Lee | Pop Rock
 Flor de Lis | Djavan | MPB
+Flores | Titãs | Rock Nacional
+Flores em Você | Ira! | Rock Nacional
+Foi um Rio que Passou em Minha Vida | Paulinho da Viola | Samba
 Frevo Mulher | Zé Ramalho | MPB
 Fullgás | Marina Lima | Pop Rock
+Galopeira | Chitãozinho & Xororó | Sertanejo
 Garota de Ipanema | Tom Jobim | Bossa Nova | F
 Garota Nacional | Skank | Pop Rock
+Gatas Extraordinárias | Cássia Eller | Rock Nacional
 Girassol | Alceu Valença | MPB
 Gita | Raul Seixas | Rock Nacional
 Gostava Tanto de Você | Tim Maia | MPB
+Gotas d'Água | Simone | MPB
+Há Tempos | Legião Urbana | Rock Nacional
+Homem com H | Ney Matogrosso | MPB
+I Saw You Saying (That You Say That You Saw) | Raimundos | Rock Nacional
+Identidade | Jorge Aragão | Samba
+Ideologia | Cazuza | Rock Nacional
+Índios | Legião Urbana | Rock Nacional
+Infinita Highway | Engenheiros do Hawaii | Rock Nacional
+Influência do Jazz | Carlos Lyra | Bossa Nova
+Inútil | Ultraje a Rigor | Rock Nacional
+Is This Love | Bob Marley | Reggae
+Isso Aqui Tá Bom Demais | Dominguinhos | Forró
+Já Sei Namorar | Tribalistas | MPB
+Jack Soul Brasileiro | Lenine | MPB
 Jackie Tequila | Skank | Pop Rock
+Jamming | Bob Marley | Reggae
+Juazeiro | Luiz Gonzaga | Forró
 La Belle de Jour | Alceu Valença | MPB
+Lágrimas e Chuva | Kid Abelha | Pop Rock
+Lança Perfume | Rita Lee | Pop Rock
 Lanterna dos Afogados | Os Paralamas do Sucesso | Rock Nacional
 Leãozinho | Caetano Veloso | MPB
+Louras Geladas | RPM | Rock Nacional
+Lugar ao Sol | Charlie Brown Jr. | Rock Nacional
 Madalena | Ivan Lins | MPB
+Maior Abandonado | Barão Vermelho | Rock Nacional
+Malandragem | Cássia Eller | Rock Nacional
 Maluco Beleza | Raul Seixas | Rock Nacional
+Maneiras | Zeca Pagodinho | Samba
+Mania de Você | Rita Lee | Pop Rock
 Maria Chiquinha | Sandy & Junior | Pop Rock
+Maria, Maria | Milton Nascimento | MPB
+Mas que Nada | Jorge Ben Jor | MPB
+Máscara | Pitty | Rock Nacional
 Me Chama | Lobão | Rock Nacional
+Me Deixa | O Rappa | Rock Nacional
 Medo da Chuva | Raul Seixas | Rock Nacional
 Medo de Avião | Belchior | MPB
+Melô do Marinheiro | Os Paralamas do Sucesso | Rock Nacional
+Meninos e Meninas | Legião Urbana | Rock Nacional
 Mentiras | Adriana Calcanhotto | MPB
 Metamorfose Ambulante | Raul Seixas | Rock Nacional
 Meu Erro | Os Paralamas do Sucesso | Rock Nacional
+Meu Lugar | Arlindo Cruz | Samba
+Meu Nome É Gal | Gal Costa | MPB
 Meu Vaqueiro, Meu Peão | Mastruz com Leite | Forró
+Minha Alma (A Paz que Eu Não Quero) | O Rappa | Rock Nacional
+Mosca na Sopa | Raul Seixas | Rock Nacional
+Mulher de Fases | Raimundos | Rock Nacional
+Música Urbana | Capital Inicial | Rock Nacional
 Não Chores Mais | Gilberto Gil | Reggae
+Não Deixe o Samba Morrer | Alcione | Samba
+Não É Sério | Charlie Brown Jr. | Rock Nacional
+Natasha | Capital Inicial | Rock Nacional
 Negue | Maria Bethânia | MPB
+Nervos de Aço | Lupicínio Rodrigues | Samba
+No Dia em que Eu Saí de Casa | Zezé Di Camargo & Luciano | Sertanejo
 No Woman No Cry | Bob Marley | Reggae
 Noturno | Fagner | MPB
 O Bêbado e a Equilibrista | João Bosco | MPB
+O Canto da Cidade | Daniela Mercury | Pop Rock
+O Canto da Ema | Jackson do Pandeiro | Forró
+O Menino da Porteira | Sérgio Reis | Sertanejo
+O Mundo É um Moinho | Cartola | Samba
+O Papa É Pop | Engenheiros do Hawaii | Rock Nacional
+O Portão | Roberto Carlos | MPB
 O Que É, O Que É? | Gonzaguinha | MPB
+O Segundo Sol | Cássia Eller | Rock Nacional
+O Show Tem que Continuar | Fundo de Quintal | Samba
 O Tempo Não Para | Cazuza | Rock Nacional
+O Vencedor | Los Hermanos | Pop Rock
+O Xote das Meninas | Luiz Gonzaga | Forró
 Oceano | Djavan | MPB
 Óculos | Os Paralamas do Sucesso | Rock Nacional
+Olhar 43 | RPM | Rock Nacional
 Onde Você Mora? | Cidade Negra | Reggae
+One Love | Bob Marley | Reggae
+Oração ao Tempo | Caetano Veloso | MPB
 Ouro de Tolo | Raul Seixas | Rock Nacional
 Ovelha Negra | Rita Lee | Pop Rock
+Pacato Cidadão | Skank | Pop Rock
 Paciência | Lenine | MPB
 Pagode Russo | Luiz Gonzaga | Forró | C
+Pai | Fábio Jr. | Pop Rock
 Pais e Filhos | Legião Urbana | Rock Nacional
+País Tropical | Jorge Ben Jor | MPB
+Panela Velha | Sérgio Reis | Sertanejo
+Panis et Circencis | Os Mutantes | Rock Nacional
 Paraíba | Luiz Gonzaga | Forró
+Passe em Casa | Tribalistas | MPB
+Pecado Capital | Paulinho da Viola | Samba
 Pelas Ruas que Andei | Alceu Valença | MPB
 Pense em Mim | Leandro & Leonardo | Sertanejo
+Pérola Negra | Luiz Melodia | MPB
+Pintura Íntima | Kid Abelha | Pop Rock
+Planeta Água | Guilherme Arantes | Pop Rock
+Pobre Paulista | Ira! | Rock Nacional
+Pra Começar | Marina Lima | Pop Rock
 Pra Dizer Adeus | Titãs | Rock Nacional
 Pra Ser Sincero | Engenheiros do Hawaii | Rock Nacional
+Preciso Me Encontrar | Cartola | Samba
+Presente de Um Beija-Flor | Natiruts | Reggae
+Preta Pretinha | Novos Baianos | MPB
 Primavera | Tim Maia | MPB
 Primeiros Erros | Capital Inicial | Rock Nacional
+Pro Dia Nascer Feliz | Barão Vermelho | Rock Nacional
+Proibida pra Mim | Charlie Brown Jr. | Rock Nacional
+Proposta | Roberto Carlos | MPB
+Quando o Sol Se For | Detonautas | Rock Nacional
+Quase Sem Querer | Legião Urbana | Rock Nacional
+Que Maravilha | Toquinho | MPB
 Queixa | Caetano Veloso | MPB
 Quem de Nós Dois | Ana Carolina | MPB
+Quero Ser Feliz Também | Natiruts | Reggae
+Qui Nem Jiló | Luiz Gonzaga | Forró
+Radinho de Pilha | Genival Lacerda | Forró
+Rádio Pirata | RPM | Rock Nacional
 Realce | Gilberto Gil | Reggae
+Rebelde sem Causa | Ultraje a Rigor | Rock Nacional
+Redemption Song | Bob Marley | Reggae
+Relicário | Nando Reis | Pop Rock
+Respeita Januário | Luiz Gonzaga | Forró
+Resposta | Nando Reis | Pop Rock
 Retalhos de Cetim | Benito di Paula | MPB
 Revelação | Fagner | MPB
 Rindo à Toa | Falamansa | Forró
+Rodo Cotidiano | O Rappa | Rock Nacional
 Romaria | Renato Teixeira | MPB
+Rosa de Hiroshima | Ney Matogrosso | MPB
 Sá Marina | Wilson Simonal | MPB
+Samba da Bênção | Vinícius de Moraes | Bossa Nova
+Samba de Uma Nota Só | Tom Jobim | Bossa Nova
+Samba do Arnesto | Adoniran Barbosa | Samba
+Samba em Prelúdio | Vinícius de Moraes | Bossa Nova
+Samba pra Vinicius | Toquinho | MPB
 Sampa | Caetano Veloso | MPB
 Sangrando | Gonzaguinha | MPB
 Sangue Latino | Ney Matogrosso | MPB
+Saudosa Maloca | Adoniran Barbosa | Samba
+Sebastiana | Jackson do Pandeiro | Forró
 Segredos | Frejat | Pop Rock
 Seguir Viagem | Roupa Nova | Pop Rock
+Sentado à Beira do Caminho | Erasmo Carlos | MPB
 Será | Legião Urbana | Rock Nacional
+Severina Xique-Xique | Genival Lacerda | Forró
 Sina | Djavan | MPB
+Ska | Os Paralamas do Sucesso | Rock Nacional
+Só os Loucos Sabem | Charlie Brown Jr. | Rock Nacional
+Sobre o Tempo | Pato Fu | Pop Rock
+Sobre Todas as Forças | Cidade Negra | Reggae
+Sociedade Alternativa | Raul Seixas | Rock Nacional
 Sonífera Ilha | Titãs | Rock Nacional
+Sorri, Sou Rei | Natiruts | Reggae
+Sorte Grande | Ivete Sangalo | Pop Rock
 Sozinho | Caetano Veloso | MPB
 Sujeito de Sorte | Belchior | MPB
+Taj Mahal | Jorge Ben Jor | MPB
 Tanto | Skank | Pop Rock
 Tareco e Mariola | Flávio José | Forró
 Táxi Lunar | Geraldo Azevedo | MPB
 Tédio | Biquíni Cavadão | Pop Rock
+Televisão | Titãs | Rock Nacional
+Tempo Feliz | Baden Powell | Bossa Nova
 Tempo Perdido | Legião Urbana | Rock Nacional
+Tempos Modernos | Lulu Santos | Pop Rock
 Tenho Sede | Dominguinhos | Forró
 Tente Outra Vez | Raul Seixas | Rock Nacional
+Terra | Caetano Veloso | MPB
+Terra de Gigantes | Engenheiros do Hawaii | Rock Nacional
+Three Little Birds | Bob Marley | Reggae
+Timidez | Biquíni Cavadão | Pop Rock
 Tocando em Frente | Almir Sater | Sertanejo
+Todo Carnaval Tem Seu Fim | Los Hermanos | Pop Rock
+Traduzir-se | Fagner | MPB
+Travessia | Milton Nascimento | MPB
+Trem das Onze | Adoniran Barbosa | Samba
+Trem-Bala | Ana Vilela | Pop Rock
 Tropicana | Alceu Valença | MPB
+Último Romance | Los Hermanos | Pop Rock
+Um Girassol da Cor do Seu Cabelo | Lô Borges | MPB
+Um Pro Outro | Lulu Santos | Pop Rock
 Uma Brasileira | Os Paralamas do Sucesso | Rock Nacional
+Vai Passar | Chico Buarque | MPB
+Velha Infância | Tribalistas | MPB
+Vem Morena | Luiz Gonzaga | Forró
+Verdade | Zeca Pagodinho | Samba
 Vila do Sossego | Zé Ramalho | MPB
+Vilarejo | Marisa Monte | MPB
+Vital e Sua Moto | Os Paralamas do Sucesso | Rock Nacional
+Você Não Soube Me Amar | Blitz | Pop Rock
+Você Não Vale Nada | Calcinha Preta | Forró
 Wave | Tom Jobim | Bossa Nova
 Whisky a Go-Go | Roupa Nova | Pop Rock
 Xote dos Milagres | Falamansa | Forró
+Zé Ninguém | Biquíni Cavadão | Pop Rock
+Zóio de Lula | Charlie Brown Jr. | Rock Nacional
